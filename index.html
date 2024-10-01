@@ -6,37 +6,56 @@
     <title>Dr Puccetti Mentoring</title>
     <link rel="stylesheet" href="../styles.css">
     <script src="../functions.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
 </head>
+<header>
+    <h1 align="center" class="raleway">
+    Dr. Puccetti Mentoring
+    </h1>
+<div align="center">
+    <!-- Button to take user to about me page  -->
+<a href="./pages/aboutme.html"> 
+<button class="raleway">
+    About me
+</button>
+</a>
+
+<!-- Button to take user to My Work page  -->
+<a href="./pages/my_work.html">
+<button class="raleway">
+    My Work
+</button>
+</a> 
+
+<button class="raleway" class="switch" onclick="toggleDarkMode()">
+    Toggle dark mode
+</button>
+
+</div>
+</header>
+<hr>
 <body>
-    <script> src="functions.js"</script>
-<h1>
-Dr. Puccetti Mentoring
-</h1>
-<h2>👋 Hi, I’m Dr. Puccetti.
+
+
+<h2 class="raleway">👋 Hi, I’m Dr. Puccetti.
 I am a psychologist with rigorous research training & and I'd like to help you learn
 about data science!</h2>
 
-<!-- Button to take user to about me page  -->
-<a href="./pages/aboutme.html"> 
-    <button>About me</button>
-</a>
-<!-- Button to take user to My Work page  -->
-<a href="./pages/my_work.html">
-    <button>My Work</button>
-</a> 
-
-<button onclick="toggleDarkMode()">Toggle dark mode</button>
 
 
-<h2>
-Here are a few general details about what I'd like to offer.
-</h2>
-<div>
+
+<h3 class="raleway">
+
+</h3>
+<div class="raleway">
 <h3>
+Here are a few general details about what I'd like to offer.
 This is using R/R Studio as an example, but as you'll see below,
 there are definitely other topics we can cover.
 </h3>
-
+<div class="roboto-light">
 <ul>
 
 <li>
@@ -60,13 +79,16 @@ I can help.
 </li>
 
 </ul>
-
-<h2>
-    We can work on a wide range of topics:
-</h2>
+</div>
 <h3>
-    R (and MATLAB)
+    We can work on a wide range of topics:
 </h3>
+
+<h4>
+    R (and MATLAB)
+</h4>
+
+<div class="roboto-light">
 <ul>
     <li>Introductory programming and data types (vectors, data frames, etc.)</li>
     <li>Data wrangling and cleaning</li>
@@ -75,19 +97,26 @@ I can help.
     <li>Statistical models</li>
     <li>a bunch of others things</li>
 </ul>
-<h3>
-    Beyond this... I am more than happy to talk other areas of my expertise!    
-</h3>
+
+</div>
+<h4>
+    Any other areas of my expertise    
+</h4>
+
+<div class="roboto-light">
 <ul>
     <li>Conceptual and technical skills in fMRI data analysis.</li>
     <li>Conceptual and teachincal skills in statistics for psychological science.</li>
     <li>Writing feedback and editting for research manuscripts and/or application materials.</li>
     <li>General mentorship about clinical psychology, pursuing a PhD, building a research program etc.</li>
 </ul>
+</div>
 
-<h2>
+<h3>
     Timing:
-</h2>
+</h3>
+
+<div class="roboto-light">
 <ul>
     <li>Sessions Offered: 30m/60m/90m sessions; will almost certainly be over Zoom/Teams</li>
     <li>Frequency: Flexible to your needs (weekly, biweekly, as needed etc.)</li>
@@ -95,11 +124,14 @@ I can help.
         <li>Will mostly be scheduled weeknights and weekends (EST) but again, there is flexibility
         to meet your needs</li>
     </ul>
+</div>
 </ul>
 
-<h2>
+<h3>
     Cost:
-</h2>
+</h3>
+
+<div class="roboto-light">
 <ul>
     <li>Pay-What-You-Can/Sliding Scale: I aim to meet people where they are at. I totally get that
         cost can be really prohibitive and I am open to discussing and deciding together what will
@@ -108,9 +140,10 @@ I can help.
         though, so let's just talk!
     </li>    
 </ul>
+</div>
 
-<h3>In the future, I would like to offer package discounts and incentives such as referral discount/program but these
-are not currently in place </h3>
+<h5>In the future, I would like to offer package discounts and incentives such as referral discount/program but these
+are not currently in place </h5>
 </div>
 </body>
 </html>
